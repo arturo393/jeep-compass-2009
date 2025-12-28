@@ -2,6 +2,56 @@
 
 Registro de todos los cambios, actualizaciones y mantenimientos realizados al repositorio y al vehículo.
 
+## [1.1.0] - 2024-12-28
+
+### 📚 Documentación del Manual Original
+
+**Manual del Propietario Agregado:**
+- ✅ PDF completo del manual original Chrysler 2009 (11.9 MB)
+- ✅ Ubicación: `docs/2009-compass.pdf`
+- ✅ 430+ páginas de documentación oficial
+
+**Nuevo Documento: MANUAL-PROPIETARIO.md**
+- Extracto estructurado del manual oficial
+- Especificaciones de fluidos y lubricantes OEM
+- Intervalos de mantenimiento según fábrica
+- Sistema indicador de cambio de aceite
+- Información del sistema OBD II
+- Capacidades y especificaciones del motor
+
+### 🔧 Actualizaciones de Especificaciones
+
+**ESPECIFICACIONES.md - Corregido con datos oficiales:**
+- **Aceite motor:** Confirmado SAE 5W-20 (oficial), nota sobre 10W-40 para alto km
+- **Filtro aceite:** Part Number oficial P/N 04884900AB
+- **Bujías:** ZFR5F-11 con gap 0.043" (no ZFR5N-11)
+- **Refrigerante:** MOPAR HOAT 5 Year/100,000 Mile (no OAT genérico)
+- **Intervalos:** Máximo 6,000 millas o 6 meses (no 5,000 km)
+
+### 📋 Mejoras al README Principal
+
+**Calendario de Mantenimiento Actualizado:**
+- Sistema indicador inteligente de cambio de aceite
+- Intervalos según manual oficial (millas y km)
+- Condiciones severas de operación
+- Checklist en cada carga de combustible
+- Servicios específicos por kilometraje
+
+**Enlaces Actualizados:**
+- Link a MANUAL-PROPIETARIO.md
+- Link a PDF original en docs/
+
+### 📁 Estructura de Documentación
+
+**docs/ Organizado:**
+- README.md con instrucciones de uso
+- Manual original en PDF
+- Estructura planeada para facturas y fotos
+- Convenciones de nombres de archivos
+- Instrucciones desde móvil (GitHub app)
+
+---
+
 ## [1.0.0] - 2024-12-28
 
 ### ✨ Creación Inicial del Repositorio
