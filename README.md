@@ -3,7 +3,7 @@
 **VIN:** 1J8FFF7W88D780073  
 **Propietario:** Lucas (RUT: 13881538-2)  
 **Patente:** BSGG93  
-**Kilometraje Actual:** ~220,000 km
+**Kilometraje Actual:** ~230,000 km (Diciembre 2024)
 
 ## 📋 Índice
 
@@ -24,15 +24,16 @@
 - Ruedas (250k km estimadas próximo cambio)
 
 ### ⚠️ Atención Requerida
+- **CRÍTICO**: Problema de desalineación de correa serpentina (se sale constantemente)
 - **CRÍTICO**: Consumo elevado de aceite (retenes de válvulas)
 - **PENDIENTE**: Cambio de termostatos duales
-- **REVISAR**: Calidad de correa serpentina y tensores
+- **URGENTE**: Reemplazo completo tren de accesorios por desalineación
 
 ### 🔴 Próximas Tareas
-1. Instalar termostatos duales (Kit DORMAN 902319)
-2. Reemplazar tren de accesorios completo (Kit GATES 90K39053)
-3. Monitoreo semanal de nivel de aceite
-4. Revisión de bujías (última vez a 192k km)
+1. **URGENTE**: Solucionar desalineación de correa (nuevo compresor instalado)
+2. Instalar kit completo GATES 90K39053 (correa + tensor + poleas)
+3. Instalar termostatos duales (Kit DORMAN 902319)
+4. Monitoreo semanal de nivel de aceite
 
 ## 🔍 Diagnósticos y Problemas
 
@@ -73,8 +74,12 @@
 
 | Fecha | Kilometraje | Trabajo Realizado | Costo | Notas |
 |-------|-------------|-------------------|-------|-------|
+| Dic 2024 | 230,000 km | Compresor A/C nuevo | - | ⚠️ Correa desalineada |
 | Dic 2024 | 202,088 km | Radiador + Bomba de agua + Cuello | - | Repuestos alternativos |
-| - | 220,000 km | Mantenimiento tren trasero | - | - |
+| Ago 2024 | 250,000 km | Mantención motor arranque + limpieza | - | Eléctrica y cuerpo aceleración |
+| Jul 2024 | 250,000 km | Neumáticos usados | - | San Pedro 777, La Florida |
+| Abr 2024 | 220,000 km | Amortiguadores traseros | - | - |
+| Abr 2024 | 220,000 km | Mantenimiento tren trasero | - | - |
 | - | 220,000 km | Amortiguadores delanteros | - | - |
 | - | 216,977 km | Correa y cardán | - | - |
 | - | 207,375 km | Aceite y filtro | - | Mobil 10W40 + Filtro Mopar |

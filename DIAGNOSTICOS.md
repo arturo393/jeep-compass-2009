@@ -2,7 +2,70 @@
 
 ## 🔴 Problemas Activos
 
-### 1. Consumo Elevado de Aceite
+### 1. Desalineación Crítica de Correa Serpentina
+
+**Estado:** 🔴 CRÍTICO - Acción Inmediata Requerida  
+**Fecha Identificación:** Diciembre 2024  
+**Severidad:** ALTA (Riesgo de falla catastrófica)
+
+#### Síntomas
+- Correa se sale constantemente de las poleas
+- Ocurre después de instalar compresor A/C nuevo (230k km)
+- Desalineación evidente del sistema
+- Ruidos anormales del tren de accesorios
+
+#### Diagnóstico
+**Causa Raíz:** Desalineación del tren de accesorios
+
+**Posibles Causas:**
+- Tensor desgastado o mal instalado
+- Poleas locas desalineadas o desgastadas
+- Polea del compresor nuevo desalineada
+- Soportes de componentes flojos
+- Mezcla de componentes de diferentes fabricantes
+
+**Evidencia:**
+- ✅ Compresor nuevo instalado recientemente
+- ✅ Correa se sale repetidamente
+- ✅ Historial de tensores comprados por separado
+- ❌ Sistema nunca reemplazado completamente
+
+#### Riesgo Inmediato
+**CRÍTICO:**
+- 🚨 Correa puede romperse en cualquier momento
+- 🚨 Pérdida de dirección hidráulica (peligro de accidente)
+- 🚨 Pérdida de alternador (batería se descarga)
+- 🚨 Pérdida de A/C y bomba de agua
+- 🚨 Posible daño a componentes por fricción
+
+#### Solución Recomendada
+**Reemplazo COMPLETO del sistema - Kit GATES 90K39053**
+
+**El kit incluye:**
+- ✅ Correa serpentina nueva (medida correcta)
+- ✅ Tensor automático completo con polea
+- ✅ Poleas locas (idler pulleys) x2
+- ✅ Todos los componentes diseñados para trabajar juntos
+
+**Ventajas de kit completo:**
+- Garantía de alineación correcta
+- Todos los componentes compatibles
+- Instalación verificada por fabricante
+- Elimina problema de raíz
+
+#### Plan de Acción URGENTE
+1. 🚨 **NO conducir distancias largas** hasta solucionar
+2. 🚨 Ordenar kit GATES 90K39053 inmediatamente
+3. 🚨 Coordinar instalación con mecánico experimentado
+4. 🚨 Verificar alineación de todos los componentes
+5. 🚨 Probar extensivamente después de instalación
+
+**Fecha Objetivo:** Enero 2025 (URGENTE)  
+**Prioridad:** 🔴 CRÍTICA #1
+
+---
+
+### 2. Consumo Elevado de Aceite
 
 **Estado:** 🔴 ACTIVO - En Monitoreo  
 **Fecha Identificación:** Diciembre 2024  
@@ -51,11 +114,12 @@
 
 ---
 
-### 2. Sistema de Termostatos Sin Actualizar
+### 3. Sistema de Termostatos Sin Actualizar
 
 **Estado:** 🔴 CRÍTICO - Acción Requerida  
 **Fecha Identificación:** Diciembre 2024  
-**Severidad:** ALTA (Riesgo de sobrecalentamiento)
+**Severidad:** ALTA (Riesgo de sobrecalentamiento)  
+**Prioridad:** #2 (después de resolver correa)
 
 #### Descripción del Problema
 Los termostatos originales (200k+ km) **NO** fueron reemplazados durante el cambio de radiador y bomba de agua.
@@ -102,11 +166,11 @@ El motor Jeep Compass 2.4L requiere **sistema dual de termostatos**:
 
 ---
 
-### 3. Dudas sobre Calidad del Tren de Accesorios
+### 4. Dudas sobre Calidad del Tren de Accesorios (RESUELTO - Ver Problema #1)
 
-**Estado:** 🟡 ATENCIÓN - Evaluación en Curso  
+**Estado:** ✅ IDENTIFICADO - Causa de problema #1  
 **Fecha Identificación:** Diciembre 2024  
-**Severidad:** MEDIA (Puede causar ruidos o fallas)
+**Severidad:** CONFIRMADA como causa de desalineación
 
 #### Problema Identificado
 - Correa Mopar disponible en Mercado Libre ($55,990) - origen dudoso

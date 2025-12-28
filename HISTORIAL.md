@@ -2,6 +2,22 @@
 
 ## 2024
 
+### Diciembre 2024 - Compresor A/C + Sistema de Enfriamiento (230,000 km)
+
+**Fecha:** Diciembre, 2024  
+**Kilometraje:** ~230,000 km
+
+**Trabajo Realizado:**
+- ✅ Compresor de aire acondicionado nuevo
+- ⚠️ **PROBLEMA DETECTADO:** Correa se sale por desalineación
+
+**Observaciones Críticas:**
+- La correa serpentina tiene problemas de desalineación
+- Esto confirma necesidad de reemplazo completo del sistema
+- **Acción requerida:** Kit GATES 90K39053 completo urgente
+
+---
+
 ### Diciembre 2024 - Sistema de Enfriamiento (202,088 km)
 
 **Fecha:** 12 de Diciembre, 2024  
@@ -33,10 +49,68 @@
 
 ---
 
+### Agosto 2024 - Mantención General (250,000 km)
+
+**Fecha:** 17 de Agosto, 2024  
+**Kilometraje:** 250,000 km
+
+**Trabajo Realizado:**
+- ✅ Mantención motor de arranque
+- ✅ Limpieza cuerpo de aceleración
+- ✅ Limpieza eléctrica
+- ✅ Revisión alternador
+- ✅ Limpieza básica interior vehículo
+
+**Estado:** ✅ Completado
+
+**Observaciones:**
+- Mantención preventiva de componentes eléctricos
+- Mejora en respuesta de aceleración
+- Sistema de arranque operativo
+
+---
+
+### Julio 2024 - Neumáticos (250,000 km)
+
+**Fecha:** 16 de Julio, 2024  
+**Kilometraje:** 250,000 km
+
+**Trabajo Realizado:**
+- ✅ Compra de ruedas usadas de buena calidad
+
+**Proveedor:**
+- Vulcanización y Venta de accesorios
+- Teléfono: +56 9 4520 5728
+- Dirección: San Pedro 777, La Florida
+
+**Estado:** ✅ Completado
+
+---
+
+### Amortiguadores Traseros (220,000 km)
+
+**Fecha:** Abril, 2024  
+**Kilometraje:** 220,000 km
+
+**Trabajo Realizado:**
+- ✅ Reemplazo amortiguadores traseros
+
+**Estado:** ✅ Completado
+
+**Observaciones:**
+- Mejora en estabilidad y confort
+- Parte del mantenimiento de suspensión
+
+---
+
 ### Mantenimiento Tren Trasero (220,000 km)
 
-**Kilometraje:** 220,000 km  
-**Trabajo:** Mantenimiento completo tren trasero  
+**Fecha:** Abril, 2024  
+**Kilometraje:** 220,000 km
+
+**Trabajo Realizado:**
+- ✅ Mantenimiento completo tren trasero
+
 **Estado:** ✅ Completado
 
 ---
