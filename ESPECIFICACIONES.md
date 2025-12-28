@@ -54,40 +54,51 @@
 
 ### Aceite de Motor
 
-**Especificación OEM:** API SM o superior, SAE 5W-20
+**Especificación OEM (Manual Original):**
+- API Certified SAE **5W-20** Engine Oil
+- Debe cumplir Chrysler Material Standard MS-6395
+- Verificar grado SAE correcto en tapa de llenado
 
-**Alternativa Recomendada (para clima y kilometraje alto):**
-- **Marca:** Mobil 1
+**Capacidad:** 5.5 litros (con filtro)
+
+**Intervalo de Cambio (según Manual):**
+- Sistema indicador de vida útil del aceite
+- **Máximo absoluto:** 6,000 millas (10,000 km) o 6 meses, **lo que ocurra primero**
+- Cambiar más frecuente si condiciones severas
+
+**Alternativa Recomendada para Alto Kilometraje (200k+ km):**
 - **Viscosidad:** 10W-40 Semisintético
-- **Clasificación:** API SN/SM
-- **Capacidad:** 5.5 litros (con filtro)
-- **Intervalo cambio:** 5,000 km / 6 meses
-
-**Justificación 10W-40:**
-- Mayor viscosidad protege motor con desgaste
-- Mejor sellado de retenes desgastados
-- Adecuado para clima templado Chile
-- Reduce consumo vs 5W-20 en motores altos km
+- **Marca:** Mobil 1 o Castrol
+- **Justificación:** Mayor protección para retenes desgastados y sellos
 
 ### Filtro de Aceite
 
-**OEM:** Mopar 4884899 o 05281090AA  
-**Alternativo Compatible:** WIX 51060, FRAM PH3614  
-**Tipo:** Rosca (spin-on)  
+**OEM (Manual Original):**
+- **MOPAR Oil Filter**
+- **Part Number:** P/N 04884900AB
+- **Tipo:** Rosca (spin-on)
+
+**Alternativos Compatibles:**
+- WIX 51060
+- FRAM PH3614
+- K&N HP-1002
+
 **Especificación:** Usar solo filtros con válvula anti-drenaje
 
 ### Refrigerante
 
-**Especificación OEM:** MOPAR Antifreeze/Coolant 5 Year Formula (OAT)
+**Especificación OEM (Manual Original):**
+- **MOPAR Antifreeze/Coolant 5 Year/100,000 Mile Formula**
+- **Tipo:** HOAT (Hybrid Organic Additive Technology)
+- **Color:** Rojo/Naranja
+- **Dilución:** 50/50 (refrigerante/agua destilada)
+- **Capacidad sistema:** 9.5 litros
+- **Intervalo cambio:** 5 años o 100,000 millas (160,000 km)
 
-**Características:**
-- Tipo: Organic Acid Technology (OAT)
-- Color: Rojo/Naranja (HOAT)
-- Dilución: 50/50 (predilúdo) o concentrado + agua destilada
-- Capacidad sistema: 9.5 litros
-- Intervalo cambio: 5 años / 150,000 km
-
-**IMPORTANTE:** NO mezclar con refrigerantes verdes tradicionales (silicatos)
+**CRÍTICO - NO MEZCLAR:**
+- ⚠️ NO usar refrigerantes verdes tradicionales (silicatos)
+- ⚠️ Mezclar tipos causa corrosión severa
+- ⚠️ Usar SOLO refrigerante HOAT compatible
 
 ### Fluido de Transmisión CVT
 
@@ -162,11 +173,13 @@
 
 ### Bujías
 
-**Especificación OEM:** NGK ZFR5N-11 o equivalente  
-**Gap (abertura):** 0.043" (1.1 mm)  
-**Cantidad:** 4  
-**Intervalo cambio:** 48,000 km / 3 años  
-**Última revisión registrada:** 192,000 km
+**Especificación OEM (Manual Original):**
+- **Modelo:** ZFR5F-11 (NGK)
+- **Gap (abertura):** 0.043 inch (1.1 mm)
+- **Cantidad:** 4 bujías
+- **Intervalo cambio:** 30,000 millas (48,000 km)
+- **Última revisión registrada:** 192,000 km
+- **Próxima revisión:** ~225,000 km
 
 ---
 

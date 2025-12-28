@@ -141,19 +141,61 @@ Kissimmee, FL 34741
 - **Correa:** Serpentina multi-accesorios
 - **Tensión:** Automática (tensor hidráulico)
 
-## 📅 Calendario de Mantenimiento
+## 📅 Intervalos de Mantenimiento Recomendados
 
-### Mantenimiento Inmediato (Próximos 30 días)
-- [ ] Cambio de termostatos duales (Kit DORMAN)
-- [ ] Instalación de tren de accesorios (Kit GATES)
-- [ ] Revisión nivel de aceite (semanal)
-- [ ] Actualizar fecha de vencimiento en Trello
+### Sistema Indicador de Cambio de Aceite
 
-### Mantenimiento Próximo (3-6 meses)
-- [ ] Cambio de aceite y filtro (cada 5,000 km)
-- [ ] Revisión de bujías
-- [ ] Inspección de neumáticos
-- [ ] Revisión de frenos
+**El vehículo tiene un sistema inteligente que monitorea:**
+- Condiciones de operación del motor
+- Revoluciones y temperatura
+- Distancia recorrida
+
+**Indicador Activo:**
+- **Con EVIC:** "Oil Change Required" en pantalla + chime
+- **Sin EVIC:** "Change Oil" parpadeando en odómetro + chime
+- **Acción:** Servicio dentro de las próximas 500 millas (800 km)
+
+**IMPORTANTE (del Manual Original):**
+- ⚠️ Sistema NO monitorea el **tiempo** desde último cambio
+- ⚠️ Cambiar aceite cada **6 meses** aunque no aparezca indicador
+- ⚠️ **Máximo absoluto:** 6,000 millas (10,000 km) o 6 meses
+- ⚠️ Cambiar más frecuente si uso off-road extensivo
+
+### En Cada Carga de Combustible
+- ✅ Verificar nivel de aceite con varilla
+- ✅ Inspección visual de neumáticos
+- ✅ Verificar funcionamiento de luces
+
+### Con Cada Cambio de Aceite (~10,000 km o 6 meses)
+- ✅ Cambio de aceite y filtro
+- ✅ Inspección de todos los niveles de fluidos
+- ✅ Inspección de neumáticos (presión y desgaste)
+- ✅ Inspección visual de mangueras y correas
+- ✅ Verificar funcionamiento de frenos
+- ✅ Resetear indicador de cambio de aceite
+
+### Cada 20,000 km o 12 meses
+- ✅ Rotación de neumáticos
+- ✅ Inspección completa de frenos (pastillas, discos)
+- ✅ Inspección de suspensión
+- ✅ Verificar alineación si es necesario
+
+### Cada 48,000 km o 30,000 millas
+- ✅ **Cambio de bujías** (ZFR5F-11)
+- ✅ Inspección sistema de enfriamiento
+- ✅ Cambio de filtro de aire motor
+- ✅ Cambio de filtro de aire cabina
+
+### Cada 97,000 km o 60,000 millas
+- ✅ **Cambio de fluido transmisión CVT** (MOPAR CVTF+4)
+- ✅ Inspección/reemplazo correa serpentina
+- ✅ Flush completo sistema de frenos
+- ✅ Inspección completa de suspensión
+
+### Cada 160,000 km o 100,000 millas
+- ✅ **Cambio de refrigerante** (MOPAR HOAT 5 Year)
+- ✅ Reemplazo de mangueras refrigerante (según condición)
+- ✅ Inspección completa sistema de enfriamiento
 
 ### Mantenimiento Futuro (6-12 meses)
 - [ ] Evaluación de retenes de válvulas (considerar reparación mayor)
@@ -180,10 +222,10 @@ Kissimmee, FL 34741
 
 ## 🔗 Enlaces Útiles
 
+- [Manual del Propietario (Markdown)](./MANUAL-PROPIETARIO.md) - Extracto del manual oficial
+- [Manual Original (PDF)](./docs/2009-compass.pdf) - Manual completo Chrysler 2009
 - [Especificaciones Jeep Compass 2009](https://www.jeep.com)
 - [RockAuto - Catálogo](https://www.rockauto.com)
-- [Manual de Usuario](./docs/manual-usuario.pdf) *(pendiente)*
-- [Diagrama de Motor](./docs/diagrama-motor.pdf) *(pendiente)*
 
 ---
 
