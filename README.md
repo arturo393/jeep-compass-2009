@@ -228,11 +228,12 @@ Kissimmee, FL 34741
 ## 🔗 Enlaces Útiles
 
 - [Manual del Propietario (Markdown)](./MANUAL-PROPIETARIO.md) - Extracto del manual oficial
+- [Guía de Aceites](./GUIA-ACEITES.md) - **NUEVO** - Análisis completo de aceites y consumo
 - [Manual Original (PDF)](./docs/2009-compass.pdf) - Manual completo Chrysler 2009
 - [Especificaciones Jeep Compass 2009](https://www.jeep.com)
 - [RockAuto - Catálogo](https://www.rockauto.com)
 
 ---
 
-**Última Actualización:** 28 de Diciembre, 2024  
+**Última Actualización:** 29 de Diciembre, 2024  
 **Próxima Revisión:** 28 de Enero, 2025

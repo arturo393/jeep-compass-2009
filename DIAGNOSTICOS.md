@@ -69,13 +69,28 @@
 
 **Estado:** 🔴 ACTIVO - En Monitoreo  
 **Fecha Identificación:** Diciembre 2024  
-**Severidad:** MEDIA (No afecta funcionamiento inmediato)
+**Severidad:** CRÍTICA ⚠️ (Consumo extremadamente alto)
 
 #### Síntomas
 - Nivel de aceite baja rápidamente
+- **Consumo actual:** ~5+ litros entre cambios (91% de capacidad total)
 - Requiere relleno frecuente (semanal/quincenal)
 - No hay humo azul visible en escape (bajo carga normal)
 - No hay fugas externas visibles
+
+#### Análisis del Consumo
+
+**Datos actuales:**
+- Capacidad total del motor: 5.5 litros
+- Consumo entre cambios: **>5 litros**
+- Porcentaje renovado: **91%** del aceite total
+- Tasa de consumo: ~0.5L cada 1,000 km
+
+**Esto significa:**
+- El aceite prácticamente se renueva solo entre "cambios oficiales"
+- Solo queda ~0.5L del aceite original al momento del cambio
+- Nivel de consumo: **EXTREMADAMENTE ALTO**
+- Costo anual en aceite: ~$189,000 CLP (21 litros/año)
 
 #### Diagnóstico
 **Causa Raíz:** Retenes de válvulas gastados
@@ -98,15 +113,23 @@
 
 **Costo Comparativo:**
 - Reparación culata: $500,000+ CLP (riesgosa)
-- Rellenar aceite: ~$8,000 CLP/mes
+- Rellenar aceite: ~$15,750 CLP/mes (con consumo 5L+)
+- Costo anual aceite: ~$189,000 CLP
 
 #### Plan de Acción Actual
 1. ✅ Monitoreo semanal del nivel de aceite
 2. ✅ Rellenar cuando llegue a marca MIN
-3. ✅ Usar siempre Mobil 10W40 Semisintético
-4. ⚠️ Evaluar reparación mayor solo si empeora significativamente
+3. ✅ **USAR: Mobil 10W-40** (no 5W-20)
+4. ✅ Llevar registro de consumo mensual
+5. ⚠️ Evaluar reparación mayor solo si empeora
+
+**Aceite Recomendado:**
+- ✅ Mobil Super 10W-40 (reduce consumo)
+- ⚠️ NO usar 5W-20 (aumenta consumo)
+- Ver: [GUIA-ACEITES.md](./GUIA-ACEITES.md)
 
 #### Indicadores de Alarma
+- 🚨 **Consumo actual: >5L entre cambios** ⚠️ YA CRÍTICO
 - 🚨 Consumo mayor a 1 litro/semana
 - 🚨 Aparición de humo azul constante
 - 🚨 Pérdida de potencia notable
