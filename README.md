@@ -5,14 +5,44 @@
 **Patente:** BSGG93  
 **Kilometraje Actual:** ~230,000 km (Diciembre 2024)
 
+> 📘 **Repositorio completo de mantenimiento, diagnósticos, problemas y soluciones para el Jeep Compass 2009.**  
+> Toda la información del vehículo organizada, actualizada y versionada con Git.
+
 ## 📋 Índice
 
 - [Estado Actual](#estado-actual)
+- [Estructura del Repositorio](#estructura-del-repositorio)
 - [Diagnósticos y Problemas](#diagnósticos-y-problemas)
 - [Historial de Mantenimiento](#historial-de-mantenimiento)
 - [Compras Pendientes](#compras-pendientes)
 - [Especificaciones Técnicas](#especificaciones-técnicas)
 - [Calendario de Mantenimiento](#calendario-de-mantenimiento)
+
+## 📁 Estructura del Repositorio
+
+```
+jeep-compass-2009/
+├── README.md                          # Este archivo - Visión general
+├── CHANGELOG.md                       # Registro de cambios y actualizaciones
+├── docs/
+│   ├── mantenimiento/
+│   │   ├── CHECKLIST-230K.md         # Tareas pendientes a 230k km
+│   │   ├── GUIA-ACEITES.md           # Análisis de aceites y consumo
+│   │   ├── HISTORIAL.md              # Historial completo de mantenciones
+│   │   └── DIAGNOSTICOS.md           # Diagnósticos técnicos completos
+│   ├── problemas/
+│   │   ├── ANALISIS-CORREA-COMPRESOR.md  # Análisis técnico desalineación
+│   │   ├── PROBLEMA-CONFIRMADO.md    # Problema compresor confirmado
+│   │   ├── COMPRESOR-ACTUAL-MEDINA.md    # Info compresor instalado
+│   │   └── RESPUESTA-MEDINA.md       # Guía para reclamo con Medina 4x4
+│   ├── compras/
+│   │   ├── COMPRAS.md                # Lista de compras pendientes
+│   │   ├── COMPRESORES-ROCKAUTO.md   # Opciones compresores RockAuto
+│   │   └── PROVEEDORES.md            # Proveedores y contactos
+│   └── referencias/
+│       ├── ESPECIFICACIONES.md       # Specs técnicas del vehículo
+│       └── MANUAL-PROPIETARIO.md     # Extracto manual del propietario
+```
 
 ## 🔧 Estado Actual
 
@@ -24,16 +54,53 @@
 - Ruedas (250k km estimadas próximo cambio)
 
 ### ⚠️ Atención Requerida
-- **CRÍTICO**: Problema de desalineación de correa serpentina (se sale constantemente)
-- **CRÍTICO**: Consumo elevado de aceite (retenes de válvulas)
-- **PENDIENTE**: Cambio de termostatos duales
-- **URGENTE**: Reemplazo completo tren de accesorios por desalineación
+
+#### 🔴 CRÍTICO - Problema Compresor A/C
+- **Problema:** Compresor K22 alternativo (Medina 4x4) causa desalineación de correa
+- **Síntoma:** Correa serpentina se sale constantemente de las poleas
+- **Causa Confirmada:** Compresor con tolerancias incorrectas (altura de polea)
+- **Estado:** Esperando respuesta de Medina para devolución/garantía
+- **Solución Planificada:** Reemplazo por DENSO 4710834 (OEM equivalent)
+- 📄 **Documentación:** [`docs/problemas/RESPUESTA-MEDINA.md`](./docs/problemas/RESPUESTA-MEDINA.md)
+
+#### 🟠 IMPORTANTE - Consumo de Aceite
+- **Síntoma:** ~5+ litros entre cambios (aceite se renueva casi completo)
+- **Causa:** Retenes de válvulas gastados (desgaste normal 230k km)
+- **Aceite Actual:** 10W-40 (recomendado para alto kilometraje)
+- **Solución:** Monitoreo semanal y rellenado periódico (más económico que reparación)
+- 📄 **Documentación:** [`docs/mantenimiento/GUIA-ACEITES.md`](./docs/mantenimiento/GUIA-ACEITES.md)
+
+#### 🟡 PENDIENTE - Sistema Enfriamiento
+- **Tarea:** Cambio de termostatos duales (77°C / 95°C)
+- **Estado:** Nunca cambiados desde origen
+- **Prioridad:** Alta (afecta eficiencia del sistema)
+- **Repuesto:** DORMAN 902319 (pedido pendiente desde USA)
 
 ### 🔴 Próximas Tareas
-1. **URGENTE**: Solucionar desalineación de correa (nuevo compresor instalado)
-2. Instalar kit completo GATES 90K39053 (correa + tensor + poleas)
-3. Instalar termostatos duales (Kit DORMAN 902319)
-4. Monitoreo semanal de nivel de aceite
+
+1. **URGENTE**: Resolver situación con Medina 4x4
+   - [ ] Enviar respuesta formal solicitando devolución/reembolso
+   - [ ] Deadline 48 horas para respuesta
+   - [ ] Si rechazan: iniciar reclamo SERNAC
+   - 📄 Ver: [`docs/problemas/RESPUESTA-MEDINA.md`](./docs/problemas/RESPUESTA-MEDINA.md)
+
+2. **URGENTE**: Ordenar compresor DENSO 4710834
+   - [ ] Comprar en RockAuto (~$293k CLP)
+   - [ ] Enviar a Florida → Santiago vía Tista
+   - [ ] Instalación por mecánico (3-4 semanas)
+
+3. **ALTA PRIORIDAD**: Kit termostatos DORMAN 902319
+   - [ ] Incluir en pedido RockAuto
+   - [ ] Instalación junto con compresor
+
+4. **MEDIA PRIORIDAD**: Kit accesorios GATES 90K39053
+   - [ ] Solo si problema persiste después de DENSO
+   - [ ] Backup: tensores y poleas ya son nuevos
+
+5. **RUTINA**: Monitoreo aceite semanal
+   - [ ] Revisar nivel cada 7 días
+   - [ ] Rellenar con 10W-40 según necesidad
+   - [ ] Registrar consumo en [`docs/mantenimiento/HISTORIAL.md`](./docs/mantenimiento/HISTORIAL.md)
 
 ## 🔍 Diagnósticos y Problemas
 
@@ -225,15 +292,58 @@ Kissimmee, FL 34741
 4. **Monitoreo constante** - revisar nivel de aceite semanalmente
 5. **Documentar todo** - actualizar este repo con cada intervención
 
-## 🔗 Enlaces Útiles
+## 🔗 Enlaces Rápidos
 
-- [Manual del Propietario (Markdown)](./MANUAL-PROPIETARIO.md) - Extracto del manual oficial
-- [Guía de Aceites](./GUIA-ACEITES.md) - **NUEVO** - Análisis completo de aceites y consumo
-- [Manual Original (PDF)](./docs/2009-compass.pdf) - Manual completo Chrysler 2009
-- [Especificaciones Jeep Compass 2009](https://www.jeep.com)
-- [RockAuto - Catálogo](https://www.rockauto.com)
+### 📚 Documentación Principal
+- [`CHANGELOG.md`](./CHANGELOG.md) - Historial de cambios del repositorio
+- [`docs/referencias/MANUAL-PROPIETARIO.md`](./docs/referencias/MANUAL-PROPIETARIO.md) - Extracto manual oficial
+- [`docs/referencias/ESPECIFICACIONES.md`](./docs/referencias/ESPECIFICACIONES.md) - Especificaciones técnicas
+
+### 🔧 Mantenimiento
+- [`docs/mantenimiento/CHECKLIST-230K.md`](./docs/mantenimiento/CHECKLIST-230K.md) - Tareas pendientes a 230k km
+- [`docs/mantenimiento/GUIA-ACEITES.md`](./docs/mantenimiento/GUIA-ACEITES.md) - Análisis de aceites (5W-20 vs 10W-40)
+- [`docs/mantenimiento/HISTORIAL.md`](./docs/mantenimiento/HISTORIAL.md) - Historial completo de mantenciones
+- [`docs/mantenimiento/DIAGNOSTICOS.md`](./docs/mantenimiento/DIAGNOSTICOS.md) - Diagnósticos técnicos detallados
+
+### ⚠️ Problemas Activos
+- [`docs/problemas/RESPUESTA-MEDINA.md`](./docs/problemas/RESPUESTA-MEDINA.md) - **IMPORTANTE** - Guía reclamo compresor defectuoso
+- [`docs/problemas/ANALISIS-CORREA-COMPRESOR.md`](./docs/problemas/ANALISIS-CORREA-COMPRESOR.md) - Análisis técnico desalineación
+- [`docs/problemas/PROBLEMA-CONFIRMADO.md`](./docs/problemas/PROBLEMA-CONFIRMADO.md) - Confirmación problema compresor
+
+### 🛒 Compras y Proveedores
+- [`docs/compras/COMPRAS.md`](./docs/compras/COMPRAS.md) - Lista de compras pendientes
+- [`docs/compras/COMPRESORES-ROCKAUTO.md`](./docs/compras/COMPRESORES-ROCKAUTO.md) - Opciones compresores RockAuto
+- [`docs/compras/PROVEEDORES.md`](./docs/compras/PROVEEDORES.md) - Proveedores y contactos
+
+### 🌐 Enlaces Externos
+- [RockAuto - Catálogo Jeep Compass 2009](https://www.rockauto.com)
+- [SERNAC - Reclamos](https://www.sernac.cl)
+- [Jeep Official](https://www.jeep.com)
 
 ---
 
-**Última Actualización:** 29 de Diciembre, 2024  
-**Próxima Revisión:** 28 de Enero, 2025
+## 📊 Resumen de Inversiones
+
+### ✅ Realizadas (Diciembre 2024)
+- Sistema enfriamiento: ~$200k CLP (radiador + bomba + cuello)
+- ❌ Compresor K22 Medina: ~$120k CLP (DEFECTUOSO - en proceso garantía)
+- Instalación compresor: ~$60k CLP
+- Diagnósticos: ~$30k CLP
+
+### 🔜 Pendientes (Enero-Febrero 2025)
+- Compresor DENSO 4710834: ~$293k CLP
+- Kit termostatos DORMAN: ~$66k CLP
+- Logística USA→Chile: ~$40k CLP
+- **TOTAL PENDIENTE:** ~$399k CLP
+
+### 💰 Recuperable vía SERNAC
+- Compresor defectuoso: $120k
+- Instalación desperdiciada: $60k
+- Diagnósticos: $30k
+- **TOTAL RECLAMABLE:** ~$210-280k CLP (85% probabilidad ganar)
+
+---
+
+**Última Actualización:** 30 de Diciembre, 2024  
+**Próxima Revisión:** 29 de Enero, 2025  
+**Versión Repositorio:** 2.0.0

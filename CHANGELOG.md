@@ -2,6 +2,151 @@
 
 Registro de todos los cambios, actualizaciones y mantenimientos realizados al repositorio y al vehículo.
 
+## [2.0.0] - 2024-12-30
+
+### 🔥 CRÍTICO - Problema Compresor A/C Confirmado
+
+**Situación:**
+- Compresor K22 alternativo (Medina 4x4 N14M091) causa desalineación severa de correa
+- Correa serpentina se sale constantemente de las poleas
+- Problema apareció inmediatamente después de instalación
+- **Todos** los demás componentes (tensor, poleas, correa, bomba) son NUEVOS
+
+**Diagnóstico Confirmado:**
+- ❌ NO es problema de tensor (como sugiere Medina)
+- ✅ Compresor tiene tolerancias dimensionales incorrectas
+- ✅ Altura de polea del compresor está mal calibrada
+- ✅ Funcionalidad 230k km previa sin problema = prueba irrefutable
+
+**Documentación Creada:**
+- ✅ [`RESPUESTA-MEDINA.md`](./docs/problemas/RESPUESTA-MEDINA.md) - Guía completa para reclamo con argumentos técnicos y legales
+- ✅ [`COMPRESOR-ACTUAL-MEDINA.md`](./docs/problemas/COMPRESOR-ACTUAL-MEDINA.md) - Información del compresor defectuoso instalado
+- ✅ [`PROBLEMA-CONFIRMADO.md`](./docs/problemas/PROBLEMA-CONFIRMADO.md) - Confirmación diagnóstico
+- ✅ [`ANALISIS-CORREA-COMPRESOR.md`](./docs/problemas/ANALISIS-CORREA-COMPRESOR.md) - Análisis técnico detallado
+
+**Solución Planificada:**
+1. Reclamo formal a Medina 4x4 (48h deadline)
+2. Si rechazan: SERNAC (85% probabilidad ganar)
+3. Ordenar DENSO 4710834 en RockAuto (~$293k CLP)
+4. Instalación en 3-4 semanas
+
+**Inversión Desperdiciada:**
+- Compresor K22: $120k CLP
+- Instalación: $60k CLP
+- Diagnósticos: $30k CLP
+- **TOTAL: $210k CLP** (reclamable vía SERNAC)
+
+### 🛢️ Análisis Completo Sistema de Lubricación
+
+**Consumo de Aceite Crítico:**
+- ~5+ litros entre cambios (aceite se renueva casi completo)
+- Confirmado: Retenes de válvulas gastados (normal 230k km)
+- NO hay fugas externas ni mezcla con refrigerante
+- Decisión: NO abrir motor (más caro que rellenar periódicamente)
+
+**Análisis de Viscosidades Documentado:**
+- ✅ 5W-20 (OEM): Para motores nuevos/bajo km - ❌ NO recomendado 230k km
+- ✅ 5W-30: Compromiso razonable
+- ✅ **10W-40 (ACTUAL)**: Mejor opción para alto km y consumo elevado ✅
+- Documento completo: [`GUIA-ACEITES.md`](./docs/mantenimiento/GUIA-ACEITES.md)
+
+**Comparativa Técnica Agregada:**
+| Aceite | Protección | Economía | Alto KM | Consumo |
+|--------|-----------|----------|---------|---------|
+| 5W-20 | ⭐⭐ | ⭐⭐⭐⭐⭐ | ❌ | Aumenta |
+| 5W-30 | ⭐⭐⭐ | ⭐⭐⭐⭐ | ✅ OK | Moderado |
+| 10W-40 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ✅✅ | Reduce |
+
+**Recomendación Final:** Continuar con 10W-40 semisintético
+
+### 📋 Checklist Mantenimiento 230k km
+
+**Nuevo Documento:** [`CHECKLIST-230K.md`](./docs/mantenimiento/CHECKLIST-230K.md)
+
+**Tareas Identificadas:**
+- 🔴 Termostatos duales (CRÍTICO)
+- 🟡 Bujías (210k km instaladas - revisar)
+- 🟡 Inspección válvula PCV
+- 🟢 Revisión general suspensión
+- 🟢 Fluido transmisión CVT (considerar)
+
+**Calendario por Prioridad:**
+1. Resolver compresor (URGENTE)
+2. Termostatos (Alta)
+3. Bujías (Media)
+4. PCV + inspecciones (Baja)
+
+### 📁 Reorganización Completa del Repositorio
+
+**Nueva Estructura Implementada:**
+```
+docs/
+├── mantenimiento/      # Historial, aceites, checklist, diagnósticos
+├── problemas/          # Problemas activos (compresor, Medina)
+├── compras/            # Listas compras, proveedores, RockAuto
+└── referencias/        # Specs técnicas, manual propietario
+```
+
+**Archivos Reorganizados:**
+- ✅ 13 documentos movidos a carpetas temáticas
+- ✅ README.md completamente actualizado con nueva estructura
+- ✅ Enlaces internos actualizados
+- ✅ Índice navegable mejorado
+
+### 📊 Nuevo: Resumen Financiero
+
+**Agregado al README:**
+- ✅ Inversiones realizadas (Dic 2024)
+- ✅ Inversiones pendientes (Ene-Feb 2025)
+- ✅ Monto reclamable SERNAC
+- ✅ Estimación probabilidades recuperación
+
+**Totales:**
+- Gastado: ~$410k CLP (Dic 2024)
+- Pendiente: ~$399k CLP (2025)
+- Recuperable: ~$210-280k CLP (SERNAC)
+
+### 🚨 Documentación Legal y Garantía
+
+**Agregado: Derechos del Consumidor (Chile)**
+- Ley 19.496 - Artículos 20, 21, 23
+- Carga de prueba en el vendedor (NO en consumidor)
+- Proceso SERNAC paso a paso
+- Template respuesta formal a Medina
+- Documentación requerida para reclamo
+
+**Checklist SERNAC:**
+- [ ] Boleta/factura original
+- [ ] Screenshots publicación con garantía
+- [ ] Fotos compresor instalado
+- [ ] Video correa saliéndose
+- [ ] Boletas otros repuestos nuevos
+- [ ] Carta mecánico
+- [ ] Comunicaciones con Medina
+
+### 🔗 Mejoras de Navegación
+
+**README Actualizado:**
+- ✅ Sección "Enlaces Rápidos" con links a todos los docs
+- ✅ Separación por categorías (Mantenimiento, Problemas, Compras)
+- ✅ Enlaces externos (RockAuto, SERNAC, Jeep)
+- ✅ Resumen ejecutivo con prioridades claras
+
+**CHANGELOG Mejorado:**
+- ✅ Formato más detallado
+- ✅ Categorías con emojis
+- ✅ Links entre documentos
+- ✅ Impacto financiero por versión
+
+### 📝 Estado Actualizado del Vehículo
+
+**Kilometraje:** 220k km → **230k km** (actualizado)  
+**Problemas Críticos:** 2 → **1** (enfriamiento resuelto, compresor nuevo problema)  
+**Documentos:** 8 → **13** (5 nuevos)  
+**Estructura:** Plana → **Organizada en 4 categorías**
+
+---
+
 ## [1.1.0] - 2024-12-28
 
 ### 📚 Documentación del Manual Original
