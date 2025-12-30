@@ -2,6 +2,42 @@
 
 ## 2024
 
+### Diciembre 2024 - Falla Sistema Eléctrico (230,000 km)
+
+**Fecha:** 30 de Diciembre, 2024  
+**Kilometraje:** ~230,000 km
+
+**Incidente:**
+- ⚠️ Cortocircuito en toma de encendedor/12V
+- Causa: Cable cargador iPhone contactó con terminal positivo
+- Resultado: Humo, socket quemado, sin energía para dispositivos
+
+**Daños Identificados:**
+1. **Encendedor/Toma 12V:**
+   - Sin funcionamiento
+   - Probablemente fusible quemado
+   - Posible socket derretido
+
+2. **Botón 4WD:**
+   - Dejó de funcionar
+   - Posiblemente relacionado con cortocircuito
+   - Funcionalidad 4x4 perdida temporalmente
+
+**Estado:** 🔴 PENDIENTE reparación
+
+**Acción Requerida:**
+- Diagnóstico sistema eléctrico
+- Reemplazo fusibles quemados
+- Inspección/reemplazo socket si dañado
+- Diagnóstico botón 4WD
+- Verificar actuador PTU
+
+**Costo Estimado:** $30,000-90,000 CLP (según daños)
+
+**Prioridad:** ALTA - Sin energía 12V ni tracción 4x4
+
+---
+
 ### Diciembre 2024 - Compresor A/C + Sistema de Enfriamiento (230,000 km)
 
 **Fecha:** Diciembre, 2024  

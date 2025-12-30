@@ -2,13 +2,77 @@
 
 **Fecha de Revisión:** 30 de Diciembre, 2024  
 **Kilometraje Actual:** 230,000 km  
-**Última Actualización:** Diciembre 2024
+**Última Actualización:** 30 de Diciembre 2024
 
 ---
 
 ## 🚨 URGENTE - Acción Inmediata Requerida
 
-### 1. Sistema de Correa Serpentina (CRÍTICO)
+### 1. Sistema Eléctrico - Encendedor/USB Quemado (NUEVO)
+**Estado:** 🔴 CRÍTICO - Circuito dañado, sin toma corriente  
+**Fecha Incidente:** Diciembre 2024  
+**Problema:** Cortocircuito por contacto cable iPhone con positivo
+
+**Qué pasó:**
+- Cable de carga iPhone hizo contacto con terminal positivo encendedor
+- Cortocircuito generó humo
+- Encendedor/toma 12V dejó de funcionar
+- Sin acceso a energía para dispositivos
+
+**Qué hacer:**
+- [ ] 🚨 **Verificar fusible del encendedor/toma 12V**
+  - Ubicación: Caja de fusibles (ver manual)
+  - Probablemente fusible quemado
+  - Reemplazar con amperaje correcto
+- [ ] Inspeccionar socket del encendedor por daños
+- [ ] Verificar cableado detrás del socket
+- [ ] Si socket está derretido/dañado: reemplazar completo
+
+**Costo estimado:**
+- Fusible: $500-1,000 CLP
+- Socket nuevo: $8,000-15,000 CLP
+- Mano de obra: $15,000-25,000 CLP
+- **Total:** $25,000-40,000 CLP
+
+**Prioridad:** #1A ALTA 🔴 (sin energía para dispositivos)
+
+---
+
+### 2. Botón 4WD - Falla de Funcionamiento (NUEVO)
+**Estado:** 🔴 PROBLEMA ACTIVO  
+**Fecha:** Diciembre 2024  
+**Síntoma:** Botón 4WD no responde
+
+**Posibles causas:**
+1. **Relacionado con cortocircuito del encendedor:**
+   - Mismo circuito eléctrico afectado
+   - Fusible compartido quemado
+   - Sobrecarga dañó módulo
+
+2. **Falla independiente:**
+   - Botón físicamente dañado
+   - Conector suelto/oxidado
+   - Actuador 4WD defectuoso
+
+**Qué hacer:**
+- [ ] Verificar si comparte fusible con encendedor
+- [ ] Revisar conexión eléctrica del botón
+- [ ] Escanear códigos de error (OBD II)
+- [ ] Probar botón después de arreglar encendedor
+- [ ] Verificar actuador PTU funciona manualmente
+
+**⚠️ IMPORTANTE:** Si 4WD no funciona, estás en modo 2WD solamente
+
+**Costo estimado (si no es fusible):**
+- Botón/switch: $25,000-40,000 CLP
+- Actuador PTU: $80,000-150,000 CLP
+- Diagnóstico + MO: $30,000-50,000 CLP
+
+**Prioridad:** #1B ALTA 🔴 (funcionalidad 4x4 perdida)
+
+---
+
+### 3. Sistema de Correa Serpentina (CRÍTICO)
 **Estado:** 🔴 CRÍTICO - Riesgo de falla catastrófica  
 **Problema:** Correa se sale después de instalar compresor nuevo  
 **Acción:** Reemplazo completo del sistema
@@ -40,13 +104,11 @@
 - [ ] Purgar sistema después de instalación
 
 **Costo estimado:** $66,000 CLP (kit) + mano de obra  
-**Prioridad:** #2 ALTA 🔴
+**Prioridad:** #3 CRÍTICA ⚠️
 
 ---
 
-## 🔧 Mantenimiento Regular Atrasado
-
-### 3. Cambio de Aceite y Filtro
+### 4. Termostatos Duales (PENDIENTE desde 202k km)
 **Último cambio:** 207,375 km  
 **Kilometraje actual:** 230,000 km  
 **Diferencia:** **22,625 km** desde último cambio oficial
@@ -68,11 +130,13 @@
 - [ ] Resetear indicador de cambio
 
 **Costo estimado:** $50,000 CLP (aceite + filtro + mano de obra)  
-**Prioridad:** #3 ALTA 🟡
+**Prioridad:** #4 ALTA 🔴
 
 ---
 
-### 4. Bujías (ATRASADAS)
+## 🔧 Mantenimiento Regular Atrasado
+
+### 5. Cambio de Aceite y Filtro
 **Última revisión:** 192,000 km  
 **Kilometraje actual:** 230,000 km  
 **Diferencia:** **38,000 km** desde última revisión
@@ -93,7 +157,7 @@
 - Motor "tiembla" en ralentí
 
 **Costo estimado:** $40,000-60,000 CLP (4 bujías + mano obra)  
-**Prioridad:** #4 MEDIA 🟡
+**Prioridad:** #6 MEDIA 🟡
 
 ---
 
@@ -117,7 +181,7 @@
 - Luz de frenos encendida
 
 **Costo inspección:** Gratis en talleres (con cotización de trabajo)  
-**Prioridad:** #5 MEDIA-ALTA 🟡
+**Prioridad:** #7 MEDIA-ALTA 🟡
 
 ---
 
@@ -159,7 +223,7 @@
 - Aceleración pobre
 
 **Costo:** $15,000-25,000 CLP  
-**Prioridad:** #7 BAJA 🟢
+**Prioridad:** #9 BAJA 🟢
 
 ---
 
@@ -178,7 +242,7 @@
 - Empañamiento frecuente
 
 **Costo:** $15,000-20,000 CLP  
-**Prioridad:** #8 BAJA 🟢
+**Prioridad:** #9 BAJA 🟢
 
 ---
 
@@ -200,7 +264,7 @@
 
 **Costo rotación:** $8,000-15,000 CLP  
 **Costo alineación:** $25,000-35,000 CLP  
-**Prioridad:** #9 MEDIA 🟡
+**Prioridad:** #10 MEDIA 🟡
 
 ---
 
@@ -216,7 +280,7 @@
 - [ ] Estabilidad normal
 
 **Próxima revisión:** 270,000 km  
-**Prioridad:** #10 BAJA ✅
+**Prioridad:** #11 BAJA ✅
 
 ---
 
@@ -226,11 +290,13 @@
 
 | # | Item | Costo Estimado | Riesgo si no se hace |
 |---|------|----------------|----------------------|
-| 1 | Kit correa serpentina | $95k + MO | 🚨 Falla catastrófica |
-| 2 | Termostatos duales | $66k + MO | 🚨 Sobrecalentamiento |
-| 3 | Cambio aceite/filtro | $50k | ⚠️ Desgaste acelerado |
+| 1A | Sistema eléctrico (encendedor) | $25-40k | ⚠️ Sin energía dispositivos |
+| 1B | Botón 4WD | $30-50k (diagnóstico) | ⚠️ Sin tracción 4x4 |
+| 3 | Kit correa serpentina | $95k + MO | 🚨 Falla catastrófica |
+| 4 | Termostatos duales | $66k + MO | 🚨 Sobrecalentamiento |
+| 5 | Cambio aceite/filtro | $50k | ⚠️ Desgaste acelerado |
 
-**Total CRÍTICO:** ~$210,000 CLP + mano de obra
+**Total CRÍTICO:** ~$270,000-330,000 CLP + mano de obra
 
 ---
 
@@ -238,9 +304,9 @@
 
 | # | Item | Costo Estimado | Urgencia |
 |---|------|----------------|----------|
-| 4 | Bujías | $40-60k | 🟡 Rendimiento |
-| 5 | Inspección frenos | Gratis | 🟡 Seguridad |
-| 6 | Fluido CVT (si atrasado) | $80-120k | 🔴 Si nunca se cambió |
+| 6 | Bujías | $40-60k | 🟡 Rendimiento |
+| 7 | Inspección frenos | Gratis | 🟡 Seguridad |
+| - | Fluido CVT (si atrasado) | $80-120k | 🔴 Si nunca se cambió |
 
 **Total ALTA:** ~$120-180k CLP (si CVT incluida)
 
@@ -250,9 +316,9 @@
 
 | # | Item | Costo | Urgencia |
 |---|------|-------|----------|
-| 7 | Filtro aire motor | $15-25k | 🟢 Rendimiento |
-| 8 | Filtro aire cabina | $15-20k | 🟢 Confort |
-| 9 | Rotación neumáticos | $8-15k | 🟡 Desgaste uniforme |
+| 8 | Filtro aire motor | $15-25k | 🟢 Rendimiento |
+| 9 | Filtro aire cabina | $15-20k | 🟢 Confort |
+| 10 | Rotación neumáticos | $8-15k | 🟡 Desgaste uniforme |
 
 **Total MEDIA:** ~$40-60k CLP
 
@@ -261,20 +327,22 @@
 ## 💰 Inversión Total Estimada
 
 ### Escenario Mínimo (Solo CRÍTICO)
+- Sistema eléctrico: $30,000
+- Botón 4WD (diagnóstico): $30,000
 - Kit correa: $95,000
 - Termostatos: $66,000  
 - Aceite/filtro: $50,000
-- Mano de obra: $80,000
-- **TOTAL:** ~$290,000 CLP
+- Mano de obra: $100,000
+- **TOTAL:** ~$370,000 CLP
 
 ### Escenario Completo (Todo lo atrasado)
-- CRÍTICO: $290,000
+- CRÍTICO: $370,000
 - Bujías: $50,000
 - Inspección frenos: $0
 - CVT (si atrasado): $100,000
 - Filtros: $40,000
 - Rotación: $10,000
-- **TOTAL:** ~$490,000 CLP
+- **TOTAL:** ~$570,000 CLP
 
 ---
 
@@ -290,6 +358,8 @@
 
 2. **Miércoles:**
    - [ ] Llevar Jeep a taller para:
+     - **Diagnóstico sistema eléctrico (fusibles/encendedor)**
+     - **Diagnóstico botón 4WD**
      - Cambio aceite/filtro urgente (Mobil 10W-40)
      - Inspección general mientras esperas repuestos
 
@@ -307,6 +377,8 @@
    - [ ] Retiro de paquete
 
 2. **Instalación en taller:**
+   - [ ] Reparación sistema eléctrico (fusibles/socket)
+   - [ ] Reparación/diagnóstico 4WD
    - [ ] Kit correa serpentina completo
    - [ ] Termostatos duales
    - [ ] Verificación alineación
@@ -316,6 +388,8 @@
    - [ ] Test drive 50+ km
    - [ ] Verificar temperaturas normales
    - [ ] Confirmar correa no se sale
+   - [ ] **Probar encendedor 12V funciona**
+   - [ ] **Probar botón 4WD funciona**
    - [ ] Actualizar HISTORIAL.md
 
 ---
@@ -361,6 +435,7 @@
 ## 🚨 Señales de Alarma
 
 **Detener y llamar mecánico SI:**
+- 🚨 Humo o olor a quemado del tablero
 - 🚨 Correa serpentina se sale nuevamente
 - 🚨 Temperatura sube más de 210°F (99°C)
 - 🚨 Luz check engine parpadea
@@ -368,6 +443,7 @@
 - 🚨 Humo del motor
 - 🚨 Pérdida súbita de potencia
 - 🚨 Frenos no responden bien
+- ⚠️ Cualquier componente eléctrico adicional falla
 
 ---
 

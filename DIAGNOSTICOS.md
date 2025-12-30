@@ -2,7 +2,164 @@
 
 ## 🔴 Problemas Activos
 
-### 1. Desalineación Crítica de Correa Serpentina
+### 1. Falla Sistema Eléctrico - Encendedor y 4WD
+
+**Estado:** 🔴 ACTIVO - Requiere reparación urgente  
+**Fecha Identificación:** 30 de Diciembre, 2024  
+**Severidad:** ALTA (pérdida de funciones importantes)
+
+#### Incidente
+
+**Qué pasó:**
+- Cable de cargador iPhone hizo contacto con terminal positivo del encendedor
+- Cortocircuito inmediato con generación de humo
+- Encendedor/toma 12V dejó de funcionar
+- Botón 4WD dejó de responder simultáneamente
+
+#### Síntomas Actuales
+
+**Encendedor/Toma 12V:**
+- ❌ Sin energía en socket
+- ❌ No carga dispositivos
+- ⚠️ Posible olor a quemado residual
+
+**Botón 4WD:**
+- ❌ No responde al presionar
+- ❌ Sin indicación lumínica
+- ❌ Sistema 4x4 no se activa
+- ⚠️ Vehículo solo en modo 2WD
+
+#### Diagnóstico Preliminar
+
+**Causas Probables:**
+
+1. **Fusible Quemado:**
+   - Muy probable (primera protección)
+   - Fusible del circuito de accesorios
+   - Posiblemente compartido con botón 4WD
+
+2. **Socket Derretido/Dañado:**
+   - Cortocircuito directo causa daño físico
+   - Contactos internos pueden estar fundidos
+   - Carcasa plástica puede estar derretida
+
+3. **Daño en Cableado:**
+   - Sobrecarga puede haber dañado cables
+   - Conexiones pueden estar quemadas
+   - Aislamiento derretido
+
+4. **Botón 4WD - Conexión:**
+   - Si comparten fusible: misma causa
+   - Si independiente: coincidencia o sobrecarga
+   - Actuador PTU puede estar bien (verificar)
+
+#### Evidencia
+
+- ✅ Humo visible durante cortocircuito
+- ✅ Pérdida inmediata de función
+- ✅ Dos sistemas afectados simultáneamente
+- ❌ Sin fugas de combustible (no relacionado)
+- ❌ Sin olor a caucho quemado exterior
+
+#### Riesgo y Consecuencias
+
+**Riesgos inmediatos:**
+- ⚠️ Sin energía para cargar teléfono (emergencias)
+- ⚠️ Sin GPS/Waze/navegación
+- ⚠️ Funcionalidad 4x4 perdida (mal clima, off-road)
+- 🚨 Posible daño a otros componentes del circuito
+
+**Consecuencias operativas:**
+- Solo 2WD disponible (tracción reducida)
+- Sin carga USB para dispositivos
+- Dependencia de batería de teléfono
+
+#### Solución Propuesta
+
+**Paso 1: Diagnóstico (Primera visita taller)**
+1. Ubicar caja de fusibles (bajo tablero + motor)
+2. Verificar fusible de accesorios 12V
+3. Verificar fusible de sistema 4WD
+4. Inspeccionar socket del encendedor visualmente
+5. Escanear códigos de error OBD II
+6. Probar continuidad circuito 4WD
+
+**Paso 2: Reparación Encendedor**
+1. Reemplazar fusible quemado (amperaje correcto: 15A típico)
+2. Si socket dañado: reemplazar socket completo
+   - Part OEM: Mopar 68031983AA (ejemplo)
+   - Alternativo: Socket universal 12V
+3. Verificar cableado detrás del socket
+4. Prueba funcional con multímetro
+
+**Paso 3: Reparación 4WD**
+1. Si fue solo fusible: reemplazar y probar
+2. Si botón dañado: reemplazar switch
+3. Si actuador PTU afectado: diagnóstico más profundo
+4. Verificar módulo de control 4WD
+5. Probar en 4WD Auto y 4WD Lock
+
+#### Plan de Acción
+
+**ESTA SEMANA:**
+- [ ] Llevar a taller para diagnóstico eléctrico
+- [ ] Revisar manual ubicación fusibles
+- [ ] Verificar fusibles tu mismo (si tienes multímetro)
+- [ ] Documentar part numbers de repuestos necesarios
+
+**Después del diagnóstico:**
+- [ ] Comprar repuestos identificados
+- [ ] Agendar reparación
+- [ ] Prueba funcional completa
+- [ ] Actualizar historial
+
+#### Costos Estimados
+
+**Escenario Mejor (solo fusible):**
+- Fusible: $500-1,000 CLP
+- Mano obra diagnóstico: $15,000 CLP
+- **Total:** $16,000 CLP
+
+**Escenario Medio (fusible + socket):**
+- Fusibles: $1,500 CLP
+- Socket nuevo: $12,000 CLP
+- Mano de obra: $25,000 CLP
+- **Total:** $38,500 CLP
+
+**Escenario Peor (todo dañado):**
+- Fusibles: $2,000 CLP
+- Socket: $12,000 CLP
+- Botón 4WD: $35,000 CLP
+- Actuador PTU (si aplica): $120,000 CLP
+- Mano de obra: $50,000 CLP
+- **Total:** $219,000 CLP
+
+#### Prevención Futura
+
+**Para evitar repetir:**
+1. ✅ NO conectar cables sueltos cerca del socket
+2. ✅ Usar adaptadores USB de calidad
+3. ✅ Verificar cables no tengan cortes en aislamiento
+4. ✅ Desconectar durante vibraciones fuertes
+5. ✅ Considerar instalar tomas USB fijas (sin cables sueltos)
+
+#### Indicadores de Éxito
+
+**Reparación exitosa cuando:**
+- ✅ Socket 12V proporciona energía (12V medidos)
+- ✅ Carga dispositivos sin problemas
+- ✅ Botón 4WD responde con indicador luminoso
+- ✅ Sistema cambia a 4WD Auto correctamente
+- ✅ Sistema cambia a 4WD Lock correctamente
+- ✅ Sin ruidos extraños del actuador PTU
+- ✅ Sin nuevos códigos de error
+
+**Fecha Objetivo Reparación:** Primera semana Enero 2025  
+**Prioridad:** #1A-1B ALTA 🔴
+
+---
+
+### 2. Desalineación Crítica de Correa Serpentina
 
 **Estado:** 🔴 CRÍTICO - Acción Inmediata Requerida  
 **Fecha Identificación:** Diciembre 2024  
@@ -65,7 +222,7 @@
 
 ---
 
-### 2. Consumo Elevado de Aceite
+### 3. Consumo Elevado de Aceite
 
 **Estado:** 🔴 ACTIVO - En Monitoreo  
 **Fecha Identificación:** Diciembre 2024  
@@ -137,7 +294,7 @@
 
 ---
 
-### 3. Sistema de Termostatos Sin Actualizar
+### 4. Sistema de Termostatos Sin Actualizar
 
 **Estado:** 🔴 CRÍTICO - Acción Requerida  
 **Fecha Identificación:** Diciembre 2024  
@@ -189,7 +346,7 @@ El motor Jeep Compass 2.4L requiere **sistema dual de termostatos**:
 
 ---
 
-### 4. Dudas sobre Calidad del Tren de Accesorios (RESUELTO - Ver Problema #1)
+### 5. Dudas sobre Calidad del Tren de Accesorios (RESUELTO - Ver Problema #1)
 
 **Estado:** ✅ IDENTIFICADO - Causa de problema #1  
 **Fecha Identificación:** Diciembre 2024  
