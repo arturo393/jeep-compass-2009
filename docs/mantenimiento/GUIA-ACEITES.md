@@ -591,3 +591,57 @@ docs/
 
 **Última Actualización:** 29 de Diciembre, 2024  
 **Próxima Revisión:** Actualizar cuando cambies a 100% 10W-40
+
+---
+
+## 🛢️ LÍQUIDO DE DIRECCIÓN HIDRÁULICA
+
+### Especificaciones Oficiales (Manual del Propietario)
+
+**Fluido Recomendado:**
+- **MOPAR Power Steering Fluid +4** (Primaria)
+- **ATF+4 Automatic Transmission Fluid** (Alternativa compatible)
+
+### Características del Sistema
+
+**Ubicación del Reservorio:**
+- Motor 2.0L/2.4L: Visible en compartimento del motor
+- Tiene dipstick integrado para verificar nivel
+
+**Mantenimiento:**
+- ✅ No requiere cambio programado según manual
+- ⚠️ Solo verificar si:
+  - Sospechas una fuga
+  - Escuchas ruidos anormales al girar
+  - Sientes cambios en la asistencia
+
+### ⚠️ Avisos del Manual
+
+**Ruidos Normales:**
+- Ruido al final del recorrido del volante = Normal
+- Ruido en arranque en frío = Normal (fluido espeso)
+
+**Precauciones:**
+- ⚠️ No mantener volante girado al máximo por mucho tiempo
+- ⚠️ Aumenta temperatura del fluido y puede dañar bomba
+- ⚠️ No continuar conduciendo si pierdes asistencia
+
+### 📝 Cómo Verificar el Nivel
+
+1. Motor APAGADO (seguridad y precisión)
+2. Revisar dipstick del reservorio
+3. Rellenar solo si está bajo nivel marcado
+4. **NO sobre llenar**
+5. Limpiar cualquier derrame
+
+### 🛒 Opciones de Compra
+
+**Original Mopar:**
+- MOPAR Power Steering Fluid +4
+- Disponible en concesionarios Chrysler/Jeep
+
+**Alternativa Compatible:**
+- MOPAR ATF+4 (Mismo que transmisión CVT)
+- Más fácil de conseguir
+- Mismo estándar de calidad
+
