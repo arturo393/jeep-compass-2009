@@ -1,5 +1,35 @@
 # Historial de Mantenimiento - Jeep Compass 2009
 
+## 2026
+
+### Enero 2026 - Mantenimiento General y Mejoras (235,000 km)
+
+**Fecha:** 30 de Enero, 2026  
+**Kilometraje:** ~235,000 km  
+**Mecánico:** Mauricio
+
+**Trabajo Realizado:**
+- ✅ **Suspensión:** Cambio de bandeja izquierda (rótula mala).
+- ✅ **Iluminación:** Instalación de foco delantero.
+- ✅ **Eléctrico:** Reparación integral de cables (tablero central, palanca de cambios).
+- ✅ **Interior:** Instalación de cenicero.
+- ✅ **Aire Acondicionado:** Carga de gas (Funcionando ok en viajes Santiago-Viña).
+- ✅ **Alineación:** Realizada en Neumaval.
+
+**Costos:**
+- Carga A/C: $60.000
+- Mano de obra: $60.000
+- Alineación: $20.000
+- **Total:** $140.000 CLP (Incluye repuestos menores)
+
+**Observaciones:**
+- ⚠️ **Nota Eléctrica:** No dejar accesorios conectados permanentemente al cenicero (evitar sobrecarga).
+- **Compresor:** Alineado con golillas, operativo.
+- **Estado General:** "Anda bien, cada día mejor".
+- **Decisión Usuario:** No se realizarán más cambios mayores por ahora, salvo correa.
+
+---
+
 ## 2024
 
 ### Diciembre 2024 - Falla Sistema Eléctrico (230,000 km)

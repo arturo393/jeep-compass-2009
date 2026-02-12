@@ -3,7 +3,7 @@
 **VIN:** 1J8FFF7W88D780073  
 **Propietario:** Lucas (RUT: 13881538-2)  
 **Patente:** BSGG93  
-**Kilometraje Actual:** ~230,000 km (Diciembre 2024)
+**Kilometraje Actual:** ~235,000 km (Enero 2026)
 
 > 📘 **Repositorio completo de mantenimiento, diagnósticos, problemas y soluciones para el Jeep Compass 2009.**  
 > Toda la información del vehículo organizada, actualizada y versionada con Git.
@@ -48,59 +48,46 @@ jeep-compass-2009/
 
 ### ✅ Componentes en Buen Estado
 - Transmisión automática
-- Sistema eléctrico
+- Sistema eléctrico (reparado Ene 2026)
 - Tren trasero (mantenimiento a 220k km)
-- Amortiguadores delanteros (220k km)
+- Suspensión: Bandeja izquierda nueva (Ene 2026)
+- Aire Acondicionado: Funcionando OK (Ene 2026)
 - Ruedas (250k km estimadas próximo cambio)
 
 ### ⚠️ Atención Requerida
 
-#### 🔴 CRÍTICO - Problema Compresor A/C
-- **Problema:** Compresor K22 alternativo (Medina 4x4) causa desalineación de correa
-- **Síntoma:** Correa serpentina se sale constantemente de las poleas
-- **Causa Confirmada:** Compresor con tolerancias incorrectas (altura de polea)
-- **Estado:** Esperando respuesta de Medina para devolución/garantía
-- **Solución Planificada:** Reemplazo por DENSO 4710834 (OEM equivalent)
-- 📄 **Documentación:** [`docs/problemas/RESPUESTA-MEDINA.md`](./docs/problemas/RESPUESTA-MEDINA.md)
+#### 🟡 MONITOREO - Compresor A/C y Correa
+- **Estado:** Compresor actual alineado con golillas. Funcionando bien.
+- **Acción:** Cambio de correa por original Mopar para mayor seguridad.
+- **Kilometraje:** Monitorear ruidos a los 240k km.
 
 #### 🟠 IMPORTANTE - Consumo de Aceite
 - **Síntoma:** ~5+ litros entre cambios (aceite se renueva casi completo)
-- **Causa:** Retenes de válvulas gastados (desgaste normal 230k km)
+- **Causa:** Retenes de válvulas gastados (desgaste normal 235k km)
 - **Aceite Actual:** 10W-40 (recomendado para alto kilometraje)
 - **Solución:** Monitoreo semanal y rellenado periódico (más económico que reparación)
 - 📄 **Documentación:** [`docs/mantenimiento/GUIA-ACEITES.md`](./docs/mantenimiento/GUIA-ACEITES.md)
 
-#### 🟡 PENDIENTE - Sistema Enfriamiento
+#### ⏸️ PENDIENTE - Sistema Enfriamiento
 - **Tarea:** Cambio de termostatos duales (77°C / 95°C)
-- **Estado:** Nunca cambiados desde origen
-- **Prioridad:** Alta (afecta eficiencia del sistema)
-- **Repuesto:** DORMAN 902319 (pedido pendiente desde USA)
+- **Estado:** Pospuesto por el propietario (Sistema operativo).
+- **Repuesto:** DORMAN 902319 (En lista de deseos).
 
-### 🔴 Próximas Tareas
+### 🟢 Próximas Tareas
 
-1. **URGENTE**: Resolver situación con Medina 4x4
-   - [ ] Enviar respuesta formal solicitando devolución/reembolso
-   - [ ] Deadline 48 horas para respuesta
-   - [ ] Si rechazan: iniciar reclamo SERNAC
-   - 📄 Ver: [`docs/problemas/RESPUESTA-MEDINA.md`](./docs/problemas/RESPUESTA-MEDINA.md)
+1. **RUTINA**: Cambio de correa serpentina
+   - [ ] Comprar Mopar Original.
+   - [ ] Instalación preventiva.
 
-2. **URGENTE**: Ordenar compresor DENSO 4710834
-   - [ ] Comprar en RockAuto (~$293k CLP)
-   - [ ] Enviar a Florida → Santiago vía Tista
-   - [ ] Instalación por mecánico (3-4 semanas)
-
-3. **ALTA PRIORIDAD**: Kit termostatos DORMAN 902319
-   - [ ] Incluir en pedido RockAuto
-   - [ ] Instalación junto con compresor
-
-4. **MEDIA PRIORIDAD**: Kit accesorios GATES 90K39053
-   - [ ] Solo si problema persiste después de DENSO
-   - [ ] Backup: tensores y poleas ya son nuevos
-
-5. **RUTINA**: Monitoreo aceite semanal
+2. **RUTINA**: Monitoreo aceite semanal
    - [ ] Revisar nivel cada 7 días
    - [ ] Rellenar con 10W-40 según necesidad
    - [ ] Registrar consumo en [`docs/mantenimiento/HISTORIAL.md`](./docs/mantenimiento/HISTORIAL.md)
+
+3. **MANTENCIÓN**: Cambio de aceite (240k km)
+   - [ ] Próximo objetivo: 240,000 km o Junio 2026.
+
+> ⏸️ **Nota del Propietario:** No se realizarán más cambios mayores (termostatos o reparaciones de motor) por el momento. El vehículo se mantiene operativo y estable.
 
 ## 🔍 Diagnósticos y Problemas
 
@@ -141,6 +128,7 @@ jeep-compass-2009/
 
 | Fecha | Kilometraje | Trabajo Realizado | Costo | Notas |
 |-------|-------------|-------------------|-------|-------|
+| Ene 2026 | 235,000 km | Bandeja + Foco + Eléctrico + A/C | $140,000 | ✅ Stabilized |
 | Dic 2024 | 230,000 km | Compresor A/C nuevo | - | ⚠️ Correa desalineada |
 | Dic 2024 | 202,088 km | Radiador + Bomba de agua + Cuello | - | Repuestos alternativos |
 | Ago 2024 | 250,000 km | Mantención motor arranque + limpieza | - | Eléctrica y cuerpo aceleración |
@@ -324,26 +312,17 @@ Kissimmee, FL 34741
 
 ## 📊 Resumen de Inversiones
 
-### ✅ Realizadas (Diciembre 2024)
-- Sistema enfriamiento: ~$200k CLP (radiador + bomba + cuello)
-- ❌ Compresor K22 Medina: ~$120k CLP (DEFECTUOSO - en proceso garantía)
-- Instalación compresor: ~$60k CLP
-- Diagnósticos: ~$30k CLP
+### ✅ Realizadas (2024-2026)
+- **Ene 2026:** $140,000 CLP (Suspensión, Eléctrico, A/C)
+- **Dic 2024:** ~$200k CLP (Radiador + bomba + cuello)
+- **Dic 2024:** ~$120k CLP (Compresor K22 - DEFECTUOSO)
+- **Mano de Obra/Otros:** ~$90k CLP
 
-### 🔜 Pendientes (Enero-Febrero 2025)
-- Compresor DENSO 4710834: ~$293k CLP
-- Kit termostatos DORMAN: ~$66k CLP
-- Logística USA→Chile: ~$40k CLP
-- **TOTAL PENDIENTE:** ~$399k CLP
-
-### 💰 Recuperable vía SERNAC
-- Compresor defectuoso: $120k
-- Instalación desperdiciada: $60k
-- Diagnósticos: $30k
-- **TOTAL RECLAMABLE:** ~$210-280k CLP (85% probabilidad ganar)
+### 🔜 Pendientes
+- Correa Mopar Original: ~$60k CLP
 
 ---
 
-**Última Actualización:** 30 de Diciembre, 2024  
-**Próxima Revisión:** 29 de Enero, 2025  
-**Versión Repositorio:** 2.0.0
+**Última Actualización:** 12 de Febrero, 2026  
+**Próxima Revisión:** Junio 2026 (Aceite)  
+**Versión Repositorio:** 3.0.0
