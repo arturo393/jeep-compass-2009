@@ -1,0 +1,18 @@
+services:
+  bitacora-autos:
+    image: nginx:alpine
+    container_name: bitacora-autos
+    restart: unless-stopped
+    ports:
+      - "8088:80"
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: bitacora-tunnel
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --url http://bitacora-autos:80
+    depends_on:
+      - bitacora-autos
